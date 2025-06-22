@@ -1,10 +1,10 @@
 # Build a simple RAG from scratch
 
-## Step 1. config modify：
-1. .env 中的 api key
-2. data 文件夹下的测试数据
+## Step 1. modify config
+1. 'api key' in .env
+2. test dataset from data folder
 
-## Step 2. activate environment
+## Step 2. install requirements
 ``` shell
 conda create -n simpleRAGEnv python=3.8
 pip install -r requirements.txt
