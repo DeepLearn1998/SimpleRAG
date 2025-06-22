@@ -1,16 +1,16 @@
-# 零框架纯手搓 RAG
+# Build a simple RAG from scratch
 
-## Step 1. 替换为自己的内容：
+## Step 1. config modify：
 1. .env 中的 api key
 2. data 文件夹下的测试数据
 
-## Step 2. 安装虚拟环境
+## Step 2. activate environment
 ``` shell
 conda create -n simpleRAGEnv python=3.8
 pip install -r requirements.txt
 ```
 
-## Step 3. 启动项目
+## Step 3. run the project
 ``` shell
 python main.py
 ```
